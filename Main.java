@@ -8,7 +8,13 @@ public class Main {
             return;
         }
 
-        MathOperation m = (int a, int b) -> a + b;
+        MathOperation m = (int a, int b) -> {
+            int ret = 0;
+            for(int i = a; i <=b; i++) {
+                ret += i;
+            }
+            return ret;
+        };
         int x = m.calculate(Integer.valueOf(args[0]), Integer.valueOf(args[1]));
         System.out.println("result: " + x);
     }
