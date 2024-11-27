@@ -18,10 +18,4 @@ public class Main {
         int x = m.calculate(Integer.valueOf(args[0]), Integer.valueOf(args[1]));
         System.out.println("result: " + x);
     }
-
-    @FunctionalInterface
-    interface MathOperation {
-        int calculate(int a, int b);
-		// Sendy y Faris
-    }
 }
