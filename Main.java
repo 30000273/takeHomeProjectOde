@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+		// i understand it now
         System.out.println("hello sendy");
 
 		if(args.length!=2) {
