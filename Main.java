@@ -9,7 +9,6 @@ public class Main {
         }
 
         MathOperation m = (int a, int b) -> a + b;
-
         int x = m.calculate(Integer.valueOf(args[0]), Integer.valueOf(args[1]));
         System.out.println("result: " + x);
     }
@@ -18,5 +17,5 @@ public class Main {
     interface MathOperation {
         int calculate(int a, int b);
     }
-    
+
 }
